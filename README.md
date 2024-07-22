@@ -76,8 +76,30 @@ graph TD
 
 - Finally, we can use Cloud Logging and Monitoring to track performance and errors by instrumentation the entire application and draining logs on stackdriver.
 
+# Engineering to Proof of Concept
 
-# Sample Output
+## Release Plan:
+
+- Documentation:
+Develop detailed documentation for PoC setup and usage.
+Document any known issues and their resolutions.
+
+- Code Review:
+Conduct peer reviews and address feedback.
+
+- Deployment:
+Deploy the PoC to a test environment.
+
+- Feedback Loop:
+Collect feedback from initial testing and iterate as needed.
+
+# Potential Blockers
+
+- API Rate Limits: We can implement backoff strategies which is a technique that we can use to retry failing function calls after a given delay.
+- Error Handling: We need to implement robust error handling and retry mechanisms.
+- Measuring Service Performance: Since we'll need to know how our service is performing at every step, we need to add robuts instrumentation and build dashboards on top of the instrumentation to measure service efficiency and health with added load.
+
+# Code Sample Output
 
 ```
 mayanksingh@4290 Crawler % python3 crawler.py
