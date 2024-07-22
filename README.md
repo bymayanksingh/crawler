@@ -1,3 +1,7 @@
+# Web Crawler
+
+This repo contains code for a web crawler which is based on the following approach, this architecture was built using mermaid.js, this architecture employees caching as per as respects robots.txt to follow compliance requirements for the hosts, which we'll try to crawl from our crawler which was built using python3.
+
 ```mermaid
 graph TD
     A[Start Web Crawling] --> B[Create List of URLs to Crawl]
