@@ -90,6 +90,7 @@ def crawl(url, depth=2):
             crawl(link, depth-1)
 
 # Initialize crawling process
-start_urls = ['http://example.com']
+start_urls = ['https://fizznessshizzness.com/',
+              "https://incomeinsider.org/", "https://eddyballe.com/", "https://www.idfy.com/"]
 for url in start_urls:
     crawl(url)

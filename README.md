@@ -51,3 +51,16 @@ graph TD
     R1 --> R2[Update Cache with New URL]
     R2 --> B
 ```
+
+
+# Sample Output
+
+```
+mayanksingh@4290 Crawler % python3 crawler.py
+URL disallowed by robots.txt: https://facebook.com/incomeinsider.org
+URL disallowed by robots.txt: https://twitter.com/incomeinsider
+URL already crawled: https://incomeinsider.org
+URL disallowed by robots.txt: https://facebook.com/incomeinsider.org
+URL disallowed by robots.txt: https://twitter.com/incomeinsider
+URL disallowed by robots.txt: https://eddyballe.com/
+```
